@@ -29,3 +29,17 @@ body
     border: 1px solid black;
     flex: 1;
 }
+#hero
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.input
+{
+    width: 70px;
+}
+.enterbtn
+{
+    width: 50px;
+}
