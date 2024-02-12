@@ -8,13 +8,20 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body ondragstart="return false;" ondrop="return false;">
+
     <div id="hero">
-        <label for="hoho">How do you want your Grid?</label>
+        <label for="hoho">Canvas Size: </label>
         <input type="text" class="input width" placeholder="Width" id="hoho">
+
+        <span>x</span>
+
         <input type="text" class="input height" placeholder="height">
         <button class="enterbtn">Enter</button>
+        <label for="eraserchbx">Erase</label>
+        <input type="checkbox" id="eraserchbx">
     </div>
+
     <div id="grid-container"></div>
 </body>
 </html>
